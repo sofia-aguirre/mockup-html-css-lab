@@ -1,86 +1,99 @@
 * {
+    margin: 0px;
+}
+
+body {
     font-family: 'Lato', sans-serif;
-    margin: 20px 20px;
+    margin: 40px 50px;
+}
+
+header {
+    
 }
 
 h1 {
-    color: #ff9e4c;
+    color: #f08842;
     font-size: 45px;
     font-weight: 400;
-    text-align: left;
-    margin: 20px -5px;
+    margin-bottom: 7px;
 }
 
 h2 {
+    font-size: 23px;
     font-weight: 500;
-    line-height: 18px;
+    margin-bottom: 13px;
 }
 
-article {
-    border-bottom: #c7c5c2;
+.headNav {
+    font-size: 19px;
+    color: #e0dfde;
+    padding-right: 15px;
+    text-decoration: underline;
 }
 
-.blogTitle {
-    font-size: 35px;
-    font-weight: 500;
-    margin: 20px 0px;
-}
-
-h3 {
-    font-size: 35px;
-    font-weight: 200;
-    margin: 45px auto 10px 20px;
-    color: #c7c5c2;
+.headNav:hover {
+    color: #f08842;
 }
 
 a {
-    text-decoration: none;
+    text-decoration: inherit;
     color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
 }
 
-h4 {
-    color: #ff9e4c;
-    text-align: right;
-    font-weight: 300;
-    float: right;
-    width: 70%;
+article {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #e0dfde;
 }
 
-nav a {
-    font-size: 22px;
-    text-decoration-line: underline;
-    color: #dddad7ec;
-    line-height: 24px;
-    margin: 20px 15px 20px 0px;
-    text-align: left;
+h3 {
+    color: #e0dfde;
+    font-size: 39px;
+    font-weight: 400;
+    margin-bottom: 8px;
 }
 
-nav a:hover {
-    color: #ff9e4c;
-}
-
-footer a {
-    color: #ff9e4c;
-    font-size: 18px;
-}
-
-footer {
-    color: #c7c5c2;
-    width: 100%;
-}
-
-p {
-    line-height: 24px;
-    width: 70%;
-}
-
-.firstcharacter {
-    float: left;
-    color: #c7c5c2;
-    font-size: 80px;
+.blogTitle {
+    font-size: 37px;
+    font-weight: 500;
 }
 
 img {
-    width: 70%;
-    margin: 5px 20px;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.5em;
+    max-width: 100%;
+}
+
+.firstChar {
+    font-size: 100px;
+    color: #e0dfde;
+    float: left;
+    margin: 26px 10px 23px 0px;
+    font-weight: 400;
+}
+
+h4 {
+    float: right;
+    color: #f08842;
+    padding-bottom: 8px;
+}
+
+footer {
+    padding-top: 45px;
+    padding-bottom: 20px;
+    color: #c0c0bf;
+}
+
+footer nav {
+    padding-bottom: 23px;
+}
+
+.footNav {
+    color: #f08842;
 }
